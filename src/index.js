@@ -7,7 +7,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 function Page(){
   return(
-    <div>
+    <div className='card'>
       <App/>
     </div>
   )

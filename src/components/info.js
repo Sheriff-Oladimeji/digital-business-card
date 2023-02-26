@@ -5,7 +5,7 @@ import link from "../images/linkedin.png";
 import "../App.css";
 export default function Info() {
   return (
-    <div>
+    <main>
       <img src={avatar} alt="avatar" />
       <h2>Laura Smith</h2>
       <h4>Frontend Developer</h4>
@@ -14,6 +14,6 @@ export default function Info() {
         <a href="heelo"><img src={mail} alt=""></img> Email</a>
         <a href="heelo"><img src={link} alt=""></img> linkedIn</a>
       </div>
-    </div> 
+    </main> 
   );
 }
