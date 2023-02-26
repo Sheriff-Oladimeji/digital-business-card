@@ -7,9 +7,9 @@ import github from "../images/GitHub Icon.png";
 export default function Footer() {
   return (
     <footer>
-      <img src={twitter} alt="" />
-      <img src={facebook} alt="" />
-      <img src={instagram} alt="" />
+      <img src={twitter} alt="twitter" />
+      <img src={facebook} alt="facebook" />
+      <img src={instagram} alt="instagram" />
       <img src={github} alt="" />
     </footer>
   );
