@@ -7,13 +7,15 @@ export default function Info() {
   return (
     <main>
       <img src={avatar} alt="avatar" />
-      <h2>Laura Smith</h2>
+     <div className="info">
+     <h2>Laura Smith</h2>
       <h4>Frontend Developer</h4>
       <p>larausmith</p>
       <div>
         <a href="heelo"><img src={mail} alt=""></img> Email</a>
         <a href="heelo"><img src={link} alt=""></img> linkedIn</a>
       </div>
+     </div>
     </main> 
   );
 }

@@ -8,8 +8,10 @@ export default function App(){
   return(
     <div className='container'>
 <Info/>
+<article>
 <About/>
 <Interest/>
+</article>
 <Footer/>
     </div>
   )
