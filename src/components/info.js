@@ -9,8 +9,8 @@ export default function Info() {
       <img src={avatar} alt="avatar" />
      <div className="info">
      <h2>Laura Smith</h2>
-      <h4>Frontend Developer</h4>
-      <p>larausmith.website</p>
+      <p>Frontend Developer</p>
+      <small>larausmith.website</small>
       <div className="links">
         <a href="heelo" className="link-one"><img src={mail} alt=""></img> Email</a>
         <a href="heelo" className="link-two"><img src={link} alt=""></img> linkedIn</a>
