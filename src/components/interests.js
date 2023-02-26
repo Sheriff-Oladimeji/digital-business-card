@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Interest(){
 return(
-  <article className='intrest'>
+  <article className='info-ch'>
 <h3>Interest</h3>
-<p> Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
+<p className='word'> Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
   </article>
 )
 }
