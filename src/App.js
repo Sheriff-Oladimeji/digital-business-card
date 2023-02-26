@@ -6,7 +6,7 @@ import Info from './components/info';
 import Footer from './components/footer';
 export default function App(){
   return(
-    <div>
+    <div className='container'>
 <Info/>
 <About/>
 <Interest/>
