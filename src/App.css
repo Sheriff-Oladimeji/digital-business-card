@@ -13,3 +13,36 @@ body{
   background: #1A1B21;
 color: white;
 }
+.info{
+  text-align: center;
+}
+.links{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px 30px;
+}
+a{
+width: 120px;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+padding: 10px 15px;
+gap: 8px;
+}
+.link-one{
+  background-color: white;
+  color: #1E1F26;
+  
+
+}
+.link-two{
+  background: #5093E2;
+  color: #FFFFFF;
+}
+h4{
+  color: #F3BF99;
+}
